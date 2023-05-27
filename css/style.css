@@ -123,8 +123,6 @@ body{
   .home {
     padding-top: 80px;
     overflow: hidden;
-    border: 3px solid blue;
-    
     }
 
     .first-wrapper{
@@ -152,8 +150,8 @@ body{
     height: 56px;
     width: 167px;
     position: absolute;
+    margin-top: 330px;
     border-radius: 31.5px;
-    margin-top: 300px;
   }
 
   .out:hover{
@@ -470,7 +468,7 @@ position: static;
 background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
 border-radius: 10px;
 padding: 24px 28px 32px;
-height: 280px;
+height: 220px;
 width: 300px;
 margin: 19px;
 float: left;
@@ -671,7 +669,7 @@ box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
   }
  }
 
- .btn-footer{
+ .footer-end{
   background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
   border-radius: 28px;
     color: rgba(255,255,255,0.95);
@@ -684,8 +682,9 @@ box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
     margin-top: auto;
     position: relative;
     top: 15px;
+    text-align: center;
   }
-  .btn-footer:hover{
+  .footer-end:hover{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
     border-radius: 28px;
     transition: all .3s ease;
