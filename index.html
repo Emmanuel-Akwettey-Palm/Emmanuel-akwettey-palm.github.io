@@ -10,31 +10,36 @@
   <title>Frontend Mentor | Skilled e-learning landing page</title>
 </head>
 <body>
+
   <div class="container">
-
-<div class="header">
-<img  src = "./assets/logo-dark.svg" alt="My logo SVG"/>
-  <button class="btn fill"> Get Started  </button>
+<div class="header  main">
+<img class="logo" src = "./assets/logo-dark.svg" alt="My logo SVG"/>
+  <a href="" class="btn fill"> Get Started  </a>
 </div>
-
+</div>
+<article>
 <section class="home">
-<div class="first-wrapper">
+<div class="first-wrapper main">
  <h1> Maximize skill, minimize budget</h1>
 
   <h2>Our modern courses across a range of in-demand skills will give you the 
   knowledge you need to live the life you want.</h2>
 
   <button class="btn out">Get Started </button>
-</div>
+
 
   <div class="pic-wrapper">
-    <img class="responsive-img"  src = "./assets/image-hero-desktop.png" alt="My logo SVG"/>
-      
+    <picture>
+      <source media="(min-width: 992px)" srcset="./assets/image-hero-desktop.png">
+      <source media="(min-width: 768px)" srcset="./assets/image-hero-tablet.png">
+      <img src="./assets/image-hero-mobile@.svg" alt="image hero">
+   </picture>
     </div>
+  </div>
   </section>
 
     <div class="content">
-      <div class="card"">
+      <div class="card  main"">
 <div class="second-wrapper">
  <p>Check out our most popular courses!</p> 
 </div>
@@ -79,19 +84,15 @@
                      without outside investment.</h4>
                 <h5> Get Started   </h5> 
               </div>
-
-
-              
         </div>
-        
-       
        </div>
-       
-           </div>
-           <footer class="footer-wrapper">
-            <img  src = "./assets/logo-light.svg" alt="My logo SVG"/>
-              <button class="btn footer"> Get Started  </button>
-          </footer>
-           
+      </article>
+       <footer>
+        <div class="footer-wrapper  main">
+         <img  src = "./assets/logo-light.svg" alt="My logo SVG"/>
+           <button class="btn-footer"> Get Started  </button>
+        </div>
+       </footer>
+      
 </body>
 </html>
