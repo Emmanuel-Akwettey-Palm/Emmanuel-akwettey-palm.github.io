@@ -617,6 +617,7 @@ box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
 .box2{
     background-color: #ffffff;
     border-radius: 15px;
+    padding-inline: 20px;
     width: 300px;
     height: 280px;
     margin: 18px;
@@ -674,6 +675,7 @@ margin-top: 45px;
     float:left;
     margin-top: -150px;
     margin-left: 35px;
+    padding-inline: 10px;
     box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
 }
 
@@ -686,6 +688,7 @@ margin-top: 45px;
   margin-top: -150px;
   margin-right: -10px;
   float: left;
+  padding-inline: 10px;
   box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
 }
 
@@ -711,6 +714,7 @@ margin-top: 45px;
       margin-top: -150px;
       margin-left: -10px;
       margin-top: 15px;
+      padding-inline: 15px;
     }
     .box4 h5{
       margin-top: 20px;
